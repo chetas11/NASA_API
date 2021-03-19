@@ -32,7 +32,6 @@ function SearchResults() {
 
    data.map((item) => suggestions.push(item.data[0].title))
    suggestions.splice(0, suggestions.length-5)
-   console.log(suggestions)
    
 
     return (
@@ -53,6 +52,7 @@ function SearchResults() {
                      )
                 })
             }
+            
             <hr />
                 <Pagination postsperPage={postperPage} totalPosts={data.length} paginate={paginate}/>
             <hr />
