@@ -1,13 +1,13 @@
-.title {
-  display: inline;
+
+body{
+  font-family: 'Frank Ruhl Libre', serif;
+  background-color: #393e46;
+  color: white;
 }
 
-input{
-  width:150px;
-  float: right;
-  border-right: none;
-  border-radius: 5px;
-  margin-right: 0px;
+h1{
+  font-family: 'Abril Fatface', cursive;
+  color: #e7dfd5;
 }
 
 button{
@@ -17,15 +17,41 @@ button{
 }
 
 img{
-  height: 600px;
+  height: 750px;
   padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  width:250px;
+  float: right;
+  border-radius: 5px;
+  margin-right: 5px;
+  outline: none;
 }
+
+li{
+  margin: 10px;
+}
+
+.title {
+  display: inline;
+  text-transform: uppercase;
+}
+
+.search-item{
+  width: 200px;
+  height: 180px;
+  padding: 10px;
+}
+
+.suggestion{
+  display: inline;
+  margin-right: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
