@@ -52,6 +52,12 @@ li{
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  input{
+    margin-bottom: 20px;
+  }
+}
+
 
 
 
